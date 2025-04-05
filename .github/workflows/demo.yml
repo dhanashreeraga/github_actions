@@ -1,7 +1,7 @@
 name:  github actions demo
 on : workflow_dispatch
 jobs : 
-    this-is-a-first-ob:
+    this-is-a-first-job:
         runs-on: ubuntu-latest
         steps:
             - run: echo "${{github.actor}}, welcome to github_actions!!!"
